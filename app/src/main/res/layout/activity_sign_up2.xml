@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    tools:context=".Sign_UpActivity"
+    android:background="#B9E4C9">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="11dp"
+        android:focusableInTouchMode="true"
+        android:background="@drawable/bg_sign_up_box">
+
+        <TextView
+            style="@style/AppHeadingStyle"
+            android:text="@string/register"/>
+
+        <TextView
+            style="@style/AppLabelStyle"
+            android:text="@string/name"/>
+
+        <EditText
+            android:id="@+id/name"
+            style="@style/AppNameInputStyle"
+            android:hint="John Wick"/>
+
+        <TextView
+            style="@style/AppLabelStyle"
+            android:text="@string/email"/>
+
+        <EditText
+            android:id="@+id/txemail"
+            style="@style/AppNameInputStyle"
+            android:hint="abc@domain.com"
+            android:inputType="textEmailAddress"/>
+
+        <TextView
+            style="@style/AppLabelStyle"
+            android:text="Education"/>
+
+<!--        <Spinner-->
+<!--            android:id="@+id/spEducation"-->
+<!--            style="@style/AppNameInputStyle"/>-->
+
+        <RadioGroup
+            android:id="@+id/rgEducation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/rbPostgraduate"
+                style="@style/AppNameInputStyle2"
+                android:text="Postgraduate" />
+
+            <RadioButton
+                android:id="@+id/rbUndergraduate"
+                style="@style/AppNameInputStyle2"
+                android:text="Undergraduate" />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/AppLabelStyle"
+            android:text="Marital Status"/>
+
+<!--        <Spinner-->
+<!--            android:id="@+id/spMaritalstatus"-->
+<!--            style="@style/AppNameInputStyle"/>-->
+
+        <RadioGroup
+            android:id="@+id/rgMaritalStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/rbMarried"
+                style="@style/AppNameInputStyle2"
+                android:text="Married" />
+
+            <RadioButton
+                android:id="@+id/rbSingle"
+                style="@style/AppNameInputStyle2"
+                android:text="Single" />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/AppLabelStyle"
+            android:text="@string/income"/>
+
+        <EditText
+            android:id="@+id/Income"
+            style="@style/AppNameInputStyle"
+            android:inputType="number"
+            android:hint="10000"/>
+
+        <TextView
+            style="@style/AppLabelStyle"
+            android:text="@string/kid_home"/>
+
+        <EditText
+            android:id="@+id/txkidHome"
+            style="@style/AppNameInputStyle"
+            android:inputType="number"
+            android:maxLength="2"
+            android:hint="1"/>
+
+        <TextView
+            style="@style/AppLabelStyle"
+            android:text="@string/teen_home"/>
+
+        <EditText
+            android:id="@+id/txteenHome"
+            style="@style/AppNameInputStyle"
+            android:inputType="number"
+            android:maxLength="2"
+            android:hint="1"/>
+
+        <TextView
+            style="@style/AppLabelStyle"
+            android:text="@string/recency"/>
+
+        <EditText
+            android:id="@+id/recency"
+            style="@style/AppNameInputStyle"
+            android:inputType="number"
+            android:hint="999"/>
+
+        <TextView
+            style="@style/AppLabelStyle"
+            android:text="@string/total_spent"/>
+
+        <EditText
+            android:id="@+id/total_spent"
+            style="@style/AppNameInputStyle"
+            android:inputType="number"
+            android:hint="99999"/>
+
+        <TextView
+            style="@style/AppLabelStyle"
+            android:text="@string/password"/>
+
+        <EditText
+            android:id="@+id/txpassword"
+            style="@style/AppNameInputStyle"
+            android:hint="*********"
+            android:inputType="textPassword"/>
+
+
+        <CheckBox
+            android:id="@+id/chTermsConditions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/terms_and_conditions"
+            android:textColor="#356859"/>
+
+
+        <Button
+            android:id="@+id/btnSignup"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginVertical="10dp"
+            android:text="@string/sign_up"
+            android:background="@drawable/bg_button"
+            android:textColor="@color/white"
+            android:layout_gravity="center_horizontal"/>
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginVertical="10dp"
+            android:text="@string/btn_press_back"
+            android:background="@drawable/bg_button"
+            android:textColor="@color/white"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+</ScrollView>

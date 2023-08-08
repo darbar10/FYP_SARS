@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">SARS_Segmentation</string>
+    <string name="btn_press_skip">SKIP</string>
+    <string name="btn_press_back">BACK</string>
+    <string name="sign_out">SIGN OUT</string>
+    <string name="dashboard">S.A.R.S LOGIN</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="user_login">LOGIN</string>
+    <string name="register">REGISTRATION</string>
+    <string name="name">Name</string>
+    <string name="username">Username</string>
+    <string name="age">Age</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="recency">Recency</string>
+    <string name="total_spent">Total Spent</string>
+    <string name="teen_home">Teen Home</string>
+    <string name="kid_home">Kid Home</string>
+    <string name="income">Income</string>
+    <string name="terms_and_conditions">I Agree with Terms &amp; Conditions</string>
+</resources>

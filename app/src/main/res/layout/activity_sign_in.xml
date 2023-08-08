@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:background="#FFFBE6"
+    android:padding="15dp"
+    tools:context=".SignInActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+
+
+        <Button
+            android:id="@+id/btnBacksi"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="@string/btn_press_back"
+            android:background="@drawable/bg_button"
+            android:textColor="@color/white"
+            android:layout_gravity="end"
+            android:layout_marginTop="15sp"/>
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="216dp"
+            android:layout_height="221dp"
+            android:src="@drawable/team"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/textView4"
+            style="@style/AppHeadingStyle"
+            android:text="@string/sign_in"
+            android:textSize="40sp"
+            android:layout_gravity="center_horizontal"/>
+
+        <EditText
+            android:id="@+id/user_email"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/ic_usr"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:textColor="#FD5523"
+            android:textColorHint="#37966F"
+            android:textSize="20sp"
+            android:layout_gravity="center"/>
+
+        <EditText
+            android:id="@+id/user_password"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/ic_pass"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:textColor="#FD5523"
+            android:textColorHint="#37966F"
+            android:textSize="20sp"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/btnlogin"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="@string/user_login"
+            android:textSize="16sp"
+            android:background="@drawable/bg_button"
+            android:textColor="@color/white"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
