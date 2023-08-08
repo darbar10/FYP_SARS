@@ -1,0 +1,119 @@
+Product ID,Product Name,Category,Price
+1,Pepsi,Drinks,RS60
+2,7up,Drinks,RS60
+3,Sprite,Drinks,RS60
+4,Fanta,Drinks,RS60
+5,Slice,Drinks,RS60
+6,Milo,Drinks,RS80
+7,Tang Orange,Drinks,RS900
+8,Tang Mango ,Drinks,RS900
+9,Gatorade ,Drinks,RS100
+10,Sting ,Drinks,Rs60
+11,Horlicks,Drinks,RS500
+12,Nescaffe Coffee,Drinks,RS700
+13,Complan,Drinks,RS600
+14,Monster,Drinks,RS250
+15,Milk ,Drinks,RS350
+16,Eno ,Drinks,RS200
+17,Cadbury Drinking Chocolate,Drinks,RS1000
+18,Chicken ,Meat,RS500
+19,Beef,Meat,RS700
+20,Mutton,Meat,RS700
+21,Chicken Tenders,Meat,RS650
+22,Chicken Shami Kebabs,Meat,RS600
+23,Chicken Gola Kebabs ,Meat,RS600
+24,Chicken Poppers,Meat,RS500
+25,Chicken Nuggets ,Meat,RS600
+26,Chicken Samosas,Meat,RS655
+27,Chicken Reshami Kebabs,Meat,RS600
+28,Chicken Wings ,Meat,RS500
+29,Chicken Rolls,Meat,RS800
+30,Chicken Burger Patty ,Meat,RS750
+31,Beef Burger Patty ,Meat,RS750
+32,Chicken Fajita Toppings ,Meat,RS800
+33,Apple,Fruits,RS400
+34,Lemon ,Fruits,RS150
+35,Banana,Fruits,RS400
+36,Strawberry ,Fruits,RS187
+37,Mango ,Fruits,RS600
+38,Orange ,Fruits,RS400
+39,Melon ,Fruits,RS200
+40,Kiwi,Fruits,RS500
+41,Papaya,Fruits,RS350
+42,Grape ,Fruits,RS400
+43,Grape Fruit ,Fruits,RS200
+44,Green Apple ,Fruits,RS350
+45,Pineapple,Fruits,RS500
+46,Pomegranate,Fruits,RS400
+47,Jujube,Fruits,RS300
+48,Cantaloupe,Fruits,RS200
+49,Sapodilla,Fruits,RS200
+50,Cadbury Dairy Milk ,Sweets,RS50
+51,Kitkat,Sweets,RS100
+52,Snickers,Sweets,RS100
+53,Ferrero Rocher,Sweets,Rs300
+54,Hershey's,Sweets,RS300
+55,Mars,Sweets,RS80
+56,Lindt,Sweets,RS400
+57,Maltesers,Sweets,RS200
+58,Perk,Sweets,Rs10
+59,Twix,Sweets,RS80
+60,Toblerone,Sweets,RS150
+61,Paxy's,Sweets,RS100
+62,Bounty ,Sweets,Rs50
+63,Raffaello,Sweets,RS50
+64,Kinder Bueno ,Sweets,RS400
+65,Resse's,Sweets,RS200
+67,Nutella ,Sweets,RS400
+68,Ulkers,Sweets,RS300
+69,Fish Food,Fish,RS 200
+70,Fish Soup ,Fish,RS400
+71,COD,Fish,RS600
+72,Fish Oil ,Fish,RS400
+73,Salmon ,Fish,RS700
+74,Fish Pickle ,Fish,RS500
+75,Trout,Fish,RS1000
+76,Herring,Fish,RS900
+77,Mackerel,Fish,RS1200
+78,Sardines,Fish,RS800
+79,Prawns,Fish,RS700
+80,Tuna,Fish,RS1000
+81,Palla,Fish,RS800
+82,Tilapia,Fish,RS1200
+83,Haddock,Fish,RS1200
+84,Pollock,Fish,RS800
+85,Gold Chain,Gold,RS120000
+86,Gold Kara,Gold,Rs100000
+87,Gold Ring ,Gold,RS80000
+88,Gold Ring ,Gold,RS90000
+89,Gold Tops,Gold,RS80000
+90,Gold Locket,Gold,RS100000
+91,Gold Bangels,Gold,RS120000
+92,Gold Bridal Set,Gold,RS400000
+93,Gold Braclet,Gold,RS130000
+94,Gold Earrings,Gold,RS90000
+95,Gold Nosepin,Gold,RS80000
+96,Gold Cufflinks ,Gold,RS70000
+97,Gold Coin ,Gold,RS90000
+98,Gold Biscuit,Gold,RS200000
+99,Gold Kudan Set,Gold,RS220000
+100,Gold Kara,Gold,RS100000
+101,Gold Ring ,Gold,RS140000
+102,Airpods,Electronic,RS100000
+103,Earbuds,Electronic,RS90000
+104,LED Screen,Electronic,RS50000
+105,LED TV,Electronic,RS80000
+106,LCD TV,Electronic,RS40000
+107,LCD Screen,Electronic,RS60000
+108,Mouse,Electronic,RS2000
+109,Keyboard,Electronic,RS4000
+110,Speakers,Electronic,RS3000
+111,PS5,Electronic,RS200000
+112,PS4,Electronic,RS60000
+113,FIFA,Electronic,RS10000
+114,RD2,Electronic,RS10000
+115,PS Controller,Electronic,Rs6000
+116,Iphone 13,Electronic,RS300000
+117,Samsung Galaxy S22,Electronic,RS400000
+118,Iphone 12,Electronic,Rs250000
+119,Macbook,Electronic,Rs400000
