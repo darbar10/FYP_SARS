@@ -19,4 +19,4 @@ This project has 2 main files, one is the application file and the other one is 
 
 ## Authors
 
-The Authors of this Project are ** Idrees Darbar (1912146) & Sheharyar Hassan (1912243)**.
+**The Authors of this Project are ** Idrees Darbar (1912146) & Sheharyar Hassan (1912243)**.
